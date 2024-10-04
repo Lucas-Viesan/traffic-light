@@ -22,6 +22,12 @@ body {
   padding-bottom: 18%;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
 .traffic-ligth {
   display: flex;
   flex-direction: column;
@@ -51,7 +57,7 @@ body {
   background-color: #ffd700;
 }
 
-.ligth-green {
+.ligth-gren {
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -75,4 +81,25 @@ body {
   border-color: gray;
   border-style: solid;
   padding: 12px;
+}
+
+.ligth-red-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #8b0000;
+}
+
+.ligth-yellow-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffd700;
+}
+
+.ligth-gren-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #006400;
 }

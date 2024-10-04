@@ -1,21 +1,23 @@
-const cores = "red";
+const redColors = ["red", "#8b0000"];
+const grenColors = ["gren", "#006400"];
+const borderColor = "grey";
 let indice = 0;
 
-// const intervalo = setInterval(() => {
-//   document.querySelector(".ligth-red").style.backgroundColor = cores[indice];
-//   indice = (indice + 1) % cores.length;
-// }, 1000);
+const onLigthRed = () => {
+  setTimeout(() => {
+    document.querySelector(".ligth-red").style.backgroundColor =
+      redColors[indice];
+    indice = (indice + 1) % redColors.length;
+    if (indice == 1) {
+      document.querySelector(".traffic-ligth").style.borderColor = redColors[0];
+    } else {
+      document.querySelector(".traffic-ligth").style.borderColor = borderColor;
+    }
+  }, 1000);
+};
 
-// setTimeout(() => {
-//   clearInterval(intervalo);
-//   console.log("Ciclo interrompido");
-// }, 5000);
-
-const onRedLigth = setInterval(() => {
-  document.querySelector(".ligth-red").style.backgroundColor = cores;
-}, 1000);
+onLigthRed();
 
 setTimeout(() => {
-  clearInterval(onRedLigth);
-  console.log(onRedLigth);
-}, 2000);
+  clearTimeout(onLigthRed());
+}, 6000);
