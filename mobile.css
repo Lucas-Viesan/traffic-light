@@ -1,0 +1,67 @@
+@media only screen and (max-device-width: 450px) {
+  h2 {
+    width: 32%;
+    padding-top: 0px;
+    color: black;
+    font-size: 36px;
+  }
+  .section-traffic-ligth {
+    background-size: 1216px 100vh;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10%;
+    padding-top: 50%;
+    padding-bottom: 35%;
+  }
+
+  .traffic-ligth {
+    width: 94px;
+    height: 170px;
+  }
+
+  .ligth-red {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #8b0000;
+  }
+
+  .ligth-yellow {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #b47d04;
+  }
+
+  .ligth-gren {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #034720;
+  }
+
+  .traffic-ligth-2 {
+    width: 170px;
+    height: 94px;
+  }
+  .ligth-red-2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #8b0000;
+  }
+
+  .ligth-yellow-2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #b47d04;
+  }
+
+  .ligth-gren-2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #034720;
+  }
+}
