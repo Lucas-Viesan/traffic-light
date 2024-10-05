@@ -52,6 +52,7 @@ const onLigthYellow = () => {
 
 onLigthRed();
 
+// Logica do temporizador das cores
 const timer = () => {
   setTimeout(() => {
     clearTimeout(onLigthRed());
@@ -68,6 +69,8 @@ const timer = () => {
 };
 
 timer();
+
+//Loop da lógica do temporizador
 setInterval(() => {
   timer();
 }, 12000);
@@ -119,6 +122,7 @@ const onLigthRed2 = () => {
 
 onLigthGren2();
 
+// Logica do temporizador das cores
 const timer2 = () => {
   setTimeout(() => {
     clearTimeout(onLigthGren2());
@@ -135,6 +139,8 @@ const timer2 = () => {
 };
 
 timer2();
+
+//Loop da lógica do temporizador
 setInterval(() => {
   timer2();
 }, 12000);
