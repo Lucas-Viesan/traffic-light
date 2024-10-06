@@ -31,7 +31,6 @@ h2 {
 
 .traffic-ligth {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 64px;
@@ -44,11 +43,69 @@ h2 {
   padding: 12px;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ligth-min {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ligth-min-2 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ligth-min-3 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ligth-min-4 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ligth-min-5 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .ligth-red {
   width: 40px;
   height: 40px;
   border-radius: 20px;
   background-color: #8b0000;
+  margin-top: 5px;
 }
 
 .ligth-yellow {
@@ -56,6 +113,7 @@ h2 {
   height: 40px;
   border-radius: 20px;
   background-color: #b47d04;
+  margin-top: 5px;
 }
 
 .ligth-gren {
@@ -63,15 +121,7 @@ h2 {
   height: 40px;
   border-radius: 20px;
   background-color: #034720;
-}
-
-.min-ligth {
-  display: flex;
-  flex-direction: row;
-  width: 18px;
-  height: 18px;
-  border-radius: 9px;
-  background-color: aliceblue;
+  margin-top: 5px;
 }
 
 .traffic-ligth-2-container {
@@ -80,7 +130,7 @@ h2 {
 
 .traffic-ligth-2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
   width: 130px;
@@ -93,11 +143,74 @@ h2 {
   padding: 12px;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ligth-min-6 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ligth-min-7 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ligth-min-8 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.ligth-min-9 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ligth-min-10 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .ligth-red-2 {
   width: 40px;
   height: 40px;
   border-radius: 20px;
   background-color: #8b0000;
+  margin-left: 5px;
 }
 
 .ligth-yellow-2 {
@@ -105,6 +218,7 @@ h2 {
   height: 40px;
   border-radius: 20px;
   background-color: #b47d04;
+  margin-left: 5px;
 }
 
 .ligth-gren-2 {
@@ -112,4 +226,5 @@ h2 {
   height: 40px;
   border-radius: 20px;
   background-color: #034720;
+  margin-left: 5px;
 }
