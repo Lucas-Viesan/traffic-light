@@ -1,4 +1,4 @@
-<img src="https://lucas-viesan.github.io/traffic-light/TrafficLigth.png" alt="Traffic-Ligth Preview" height="500" width="1260" >
+https://github.com/user-attachments/assets/873b0514-5288-460e-b555-1717ee8566f2
 
 ## Introdução
 
